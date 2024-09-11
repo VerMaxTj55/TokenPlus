@@ -1,0 +1,16 @@
+name: TokensPlus
+version: '1.1'
+main: org.tokensplus.tokensplus.TokensPlus
+api-version: '1.21'
+commands:
+  tok:
+    description: Основная команда для управления токенами
+    usage: /<command> [args]
+    aliases: [t]
+permissions:
+  tokensplus.use:
+    description: Позволяет использовать команды плагина Tokens+
+    default: op
+  tokensplus.admin:
+    description: Позволяет использовать административные команды плагина Tokens+
+    default: op
